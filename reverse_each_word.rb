@@ -4,5 +4,5 @@ def reverse_each_word(string)
   array.each do |element|
     new_string += "#{element.reverse()} "
 end
-   puts new_string
+   return new_string
 end
